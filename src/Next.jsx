@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import img2 from './assets/img2.jpg'
+import img2 from './assets/img5.jpg'
 
 
 
@@ -71,7 +71,7 @@ function Next() {
   return (
     <div>
          <div style={container}>
-            <img src={img2} alt="" />
+            <img src={img5} alt="" />
               </div>
             
       <div style={{color : "black"}}>
