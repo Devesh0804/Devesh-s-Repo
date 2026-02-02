@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import img2 from './assets/img5.jpg'
+import img5 from './assets/img5.jpeg'
 
 
 
 const container = {
   width:"350px",
-    height:"350px",
     borderRadius : "15px",
     display:"flex",
     flexDirection:"column",
@@ -74,12 +73,12 @@ function Next() {
             <img src={img5} alt="" />
               </div>
             
-      <div style={{color : "black"}}>
-      <h2 style={{color : "black"}}>We have been Together</h2>
-      <h2 style={{color : "black"}}>{time.years} years</h2>
-      <h2 style={{color : "black"}}>{time.months} months</h2>
-      <h2 style={{color : "black"}}>{time.days} days</h2> 
-      <h2 style={{color : "black"}}>{time.hours}h {time.minutes}m {time.seconds}s</h2>
+      <div style={{color : "black "}}>
+      <h2 style={{color : "black", fontSize : "15px"}}>We have been Together</h2>
+      <h2 style={{color : "black" ,fontSize : "15px"}}>{time.years} years</h2>
+      <h2 style={{color : "black" ,fontSize : "15px"}}>{time.months} months</h2>
+      <h2 style={{color : "black" ,fontSize : "15px"}}>{time.days} days</h2> 
+      <h2 style={{color : "black" ,fontSize : "15px"}}>{time.hours}h {time.minutes}m {time.seconds}s</h2>
       <h2>And Forever...</h2>     
       </div>
 
